@@ -4,6 +4,21 @@
 
 ---
 
+# 0.1.0
+*2017-02-19*
+<img src="https://www.npmjs.com/static/images/touch-icons/apple-touch-icon-60x60.png" width=16 height=16/> **Initial npm module release version!**
+
+## Features
+A complete list of all implemented features can be found in the [README](https://github.com/arcticicestudio/nord-hyper/blob/develop/README.md#features) section.
+
+❯ Implemented the main `index.js` script theme file [`index.js`](https://github.com/arcticicestudio/nord-hyper/blob/develop/index.js). (@arcticicestudio, #1, b1fde294)
+
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-hyper/develop/assets/scrot-top.png"/></p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-hyper/develop/assets/scrot-feature-tabs.png"/></p>
+
+Detailed information about features and install instructions can be found in the [README](https://github.com/arcticicestudio/nord-hyper/blob/develop/README.md#installation) and in the [project wiki](https://github.com/arcticicestudio/nord-hyper/wiki).
+
 # 0.0.0
 *2017-02-19*
 **Project Initialization**
