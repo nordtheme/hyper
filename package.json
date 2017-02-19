@@ -1,0 +1,37 @@
+{
+  "name": "nord-hyper",
+  "title": "Nord Hyper",
+  "version": "0.0.0",
+  "description": "A arctic, north-bluish clean and elegant Hyper theme plugin",
+  "author": {
+    "name": "Arctic Ice Studio",
+    "email": "development@arcticicestudio.com",
+    "url": "http://arcticicestudio.com"
+  },
+  "homepage": "https://github.com/arcticicestudio/nord-hyper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcticicestudio/nord-hyper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arcticicestudio/nord-hyper/issues"
+  },
+  "license" : "(Apache-2.0 AND CC-BY-SA-4.0)",
+  "main": "index.js",
+  "keywords": [
+    "arctic",
+    "north",
+    "bluish",
+    "clean",
+    "elegant",
+    "hyper",
+    "hyperterm",
+    "hyper-theme"
+  ],
+  "devDependencies": {
+    "eslint": "3.15.0",
+    "gulp": "3.9.1",
+    "gulp-help": "1.6.1",
+    "gulp-eslint": "3.0.1"
+  }
+}
