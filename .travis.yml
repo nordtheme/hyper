@@ -11,6 +11,9 @@
 # Travis CI Documentation
 #   (https://docs.travis-ci.com)
 language: node_js
+node_js:
+  - "6"
+  - "4"
 cache: yarn
 before_script:
   - yarn global add gulp
