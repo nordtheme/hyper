@@ -4,6 +4,19 @@
 
 ---
 
+# 0.1.1
+*2017-02-21*
+## Improvements
+### Continuous Integration Builds
+❯ [Circle CI](https://circleci.com/gh/arcticicestudio/nord-hyper) builds are running against the latest [Node](https://nodejs.org) `6.x.x` version now
+❯ [Travis-CI](https://travis-ci.org/arcticicestudio/nord-hyper) builds are running against the latest [Node](https://nodejs.org) `6.x.x` and `4.x.x` versions now
+
+## Bug Fixes
+❯ Fixed the order of the `cursorShape`, `fontSize` and `fontFamily` configuration attributes to prevent overriding of the defined `~/.hyper.js` user configs with the theme defaults. (@kepbod, #2 #3, 45e8e9c3)
+
+### Documentation
+❯ Fixed the keymaps to open- and reload the `~/.hyper.js` config file. (@kepbod, #2, d1604716)
+
 # 0.1.0
 *2017-02-19*
 <img src="https://www.npmjs.com/static/images/touch-icons/apple-touch-icon-60x60.png" width=16 height=16/> **Initial npm module release version!**
