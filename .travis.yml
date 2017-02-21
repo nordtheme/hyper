@@ -9,7 +9,7 @@
 #
 # [References]
 # Travis CI Documentation
-#   (https://docs.travis-ci.com)
+#   (https://docs.travis-ci.com/user/languages/javascript-with-nodejs)
 language: node_js
 node_js:
   - "6"

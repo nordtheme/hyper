@@ -60,9 +60,9 @@ exports.decorateConfig = config => {
     borderColor,
     cursorColor: cursorColor,
     colors,
-    cursorShape: "BEAM",
+    cursorShape: config.cursorShape || "BEAM",
     fontSize: config.fontSize || 16,
-    fontFamily: "'Source Code Pro', Hack" || config.fontFamily,
+    fontFamily: config.fontFamily || "'Source Code Pro', Hack",
     termCSS: `
       ${config.termCSS || ""}
       ::selection {

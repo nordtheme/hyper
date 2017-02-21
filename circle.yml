@@ -9,7 +9,8 @@
 #
 # [References]
 # Circle CI
-#   (https://circleci.com/docs)
+#   (https://circleci.com/docs/language-nodejs)
+#   (https://circleci.com/docs/yarn)
 machine:
   node:
     version: 6
