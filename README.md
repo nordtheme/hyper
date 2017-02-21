@@ -20,7 +20,13 @@ plugins: [
   'nord-hyper'
 ]
 ```
-The configuration file can be opened with `⌘ +` and reloaded with `⌘ ⇧ R`.
+The configuration file can be opened with
+  - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> `⌘ + ,`
+  - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> `Ctrl + ,`
+  
+and reloaded with
+  - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> `⌘ ⇧ R`
+  - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> `Ctrl ⇧ R`
 
 #### <a href="https://www.npmjs.com/package/hpm-cli"><img src="https://hyper.is/favicon.png" width=24 height=24/> hpm</a>
 Install `nord-hyper` from the command line:
