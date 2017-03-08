@@ -122,6 +122,7 @@ exports.decorateConfig = config => {
       /*+--- hyper-statusline ---+*/
       .footer_footer {
         background-color: ${nord.nord1};
+        transition: opacity 400ms ease;
       }
     `
   });
