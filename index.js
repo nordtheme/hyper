@@ -124,6 +124,9 @@ exports.decorateConfig = config => {
         background-color: ${nord.nord1};
         transition: opacity 400ms ease;
       }
+      .footer_footer .item_item {
+        color: ${nord.nord4};
+      }
     `
   });
 };
