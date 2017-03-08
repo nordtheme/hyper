@@ -4,6 +4,14 @@
 
 ---
 
+# 0.2.0
+*2017-03-08*
+## Features
+### Plugin Support 
+❯ Added optimized style integration for the [hyper-statusline](https://www.npmjs.com/package/hyper-statusline) plugin. (@arcticicestudio, #6, 8ec6ad5d)
+
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/23712413/2a10b672-0423-11e7-854d-cb68e3e2a04c.png"/><br><strong>Hovered</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/23712434/3705d98e-0423-11e7-941a-7d0abc1b859d.png"/><br><strong>Hover transition</strong><img src="https://cloud.githubusercontent.com/assets/7836623/23712581/a40366f0-0423-11e7-80bd-e680808227aa.gif"/></p>
+
 # 0.1.1
 *2017-02-21*
 ## Improvements
