@@ -116,6 +116,13 @@ exports.decorateConfig = config => {
       .splitpane_divider {
         background-color: rgba(67, 76, 94, 0.8) !important;
       }
+      /*+---------------+
+       + Plugin Support +
+       +----------------+*/
+      /*+--- hyper-statusline ---+*/
+      .footer_footer {
+        background-color: ${nord.nord1};
+      }
     `
   });
 };
