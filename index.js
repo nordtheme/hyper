@@ -127,6 +127,13 @@ exports.decorateConfig = config => {
       .footer_footer .item_item {
         color: ${nord.nord4};
       }
+      .footer_footer .item_icon.icon_dirty {
+        background-color: ${nord.nord13};
+      }
+      .footer_footer .item_icon.icon_pull,
+      .footer_footer .item_icon.icon_push {
+        background-color: ${nord.nord7};
+      }
     `
   });
 };
