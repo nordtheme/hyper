@@ -116,6 +116,24 @@ exports.decorateConfig = config => {
       .splitpane_divider {
         background-color: rgba(67, 76, 94, 0.8) !important;
       }
+      /*+---------------+
+       + Plugin Support +
+       +----------------+*/
+      /*+--- hyper-statusline ---+*/
+      .footer_footer {
+        background-color: ${nord.nord1};
+        transition: opacity 400ms ease;
+      }
+      .footer_footer .item_item {
+        color: ${nord.nord4};
+      }
+      .footer_footer .item_icon.icon_dirty {
+        background-color: ${nord.nord13};
+      }
+      .footer_footer .item_icon.icon_pull,
+      .footer_footer .item_icon.icon_push {
+        background-color: ${nord.nord7};
+      }
     `
   });
 };
