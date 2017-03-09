@@ -54,6 +54,8 @@ const colors = {
 };
 
 exports.decorateConfig = config => {
+  const nordHyper = Object.assign({cursorBlink: true}, config.nordHyper);
+
   return Object.assign({}, config, {
     foregroundColor,
     backgroundColor,
