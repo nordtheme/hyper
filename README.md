@@ -39,6 +39,24 @@ hpm install nord-hyper
 
 <p align="center"><strong>Non-obtrusive cursor blinking.</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-hyper/develop/assets/scrcast-feature-cursor-blink.gif"/></p>
 
+## Configuration
+All configurations are set in the `nordHyper` object in your `~/.hyper.js` file.
+
+### Cursor Blinking
+The cursor blinking can be set with the `cursorBlink` attribute.  
+The default value is `true` to enable the non-obtrusive cursor blinking feature.
+```js
+module.exports = {
+  config: {
+    //...
+      nordHyper: {
+        cursorBlink: true,
+      }
+    //...
+  }
+}
+```
+
 ## Development
 [![](https://img.shields.io/badge/Changelog-0.2.0-81A1C1.svg)](https://github.com/arcticicestudio/nord-hyper/blob/v0.2.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg)](https://github.com/arcticicestudio/arcver)
 
