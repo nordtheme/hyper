@@ -65,7 +65,7 @@ let cursorBlinkCSS = `
   box-sizing: content-box !important;
   animation: blink 1s ease infinite;
 }
-`
+`;
 
 exports.decorateConfig = config => {
   const nordHyper = Object.assign({cursorBlink: true}, config.nordHyper);
