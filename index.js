@@ -53,6 +53,20 @@ const colors = {
   grayscale: foregroundColor
 };
 
+let cursorBlinkCSS = `
+@keyframes blink {
+  10%, 50% { opacity: 0 }
+  60%, 100% { opacity: 1 }
+}
+.cursor-node[focus=true] {
+  mix-blend-mode: difference;
+}
+.cursor-node[focus=true]:not([hyper-blink-moving]) {
+  box-sizing: content-box !important;
+  animation: blink 1s ease infinite;
+}
+`
+
 exports.decorateConfig = config => {
   const nordHyper = Object.assign({cursorBlink: true}, config.nordHyper);
 
@@ -73,17 +87,7 @@ exports.decorateConfig = config => {
       .cursor-node {
         border-left-width: 2px;
       }
-      @keyframes blink {
-        10%, 50% { opacity: 0 }
-        60%, 100% { opacity: 1 }
-      }
-      .cursor-node[focus=true] {
-        mix-blend-mode: difference;
-      }
-      .cursor-node[focus=true]:not([hyper-blink-moving]) {
-        box-sizing: content-box !important;
-        animation: blink 1s ease infinite;
-      }
+      ${nordHyper.cursorBlink ? cursorBlinkCSS : ""}
     `,
     css: `
       ${config.css || ""}
