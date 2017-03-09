@@ -4,6 +4,26 @@
 
 ---
 
+# 0.3.0
+*2017-03-09*
+## Features
+### [Configurations][readme-configuration]
+❯ Added a configuration to set the [cursor blinking](https://github.com/arcticicestudio/nord-hyper#cursor-blinking).  
+The default value is `true` to enable the non-obtrusive cursor blinking feature. (@zovt, #7, 27820cf8)  
+```js
+module.exports = {
+  config: {
+    //...
+    nordHyper: {
+      cursorBlink: true
+    }
+    //...
+  }
+}
+```
+
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-hyper/develop/assets/scrcast-feature-cursor-blink.gif"/></p>
+
 # 0.2.0
 *2017-03-08*
 ## Features
@@ -43,3 +63,5 @@ Detailed information about features and install instructions can be found in the
 # 0.0.0
 *2017-02-19*
 **Project Initialization**
+
+[readme-configuration]: https://github.com/arcticicestudio/nord-hyper#configuration
