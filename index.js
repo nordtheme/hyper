@@ -74,7 +74,7 @@ exports.decorateConfig = config => {
     foregroundColor,
     backgroundColor,
     borderColor,
-    cursorColor: cursorColor,
+    cursorColor: config.cursorColor || cursorColor,
     colors,
     cursorShape: config.cursorShape || "BEAM",
     fontSize: config.fontSize || 16,
