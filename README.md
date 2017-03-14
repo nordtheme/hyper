@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/nord-hyper"><img src="https://img.shields.io/travis/arcticicestudio/nord-hyper/develop.svg"/></a> <img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/nord-hyper"><img src="https://circleci.com/gh/arcticicestudio/nord-hyper.svg?style=shield&circle-token=3d66b574b6e0663697a26c1207e6fa72c30e78c9"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-hyper/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-hyper.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg"/></a> <img src="https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png" width=24 height=24/> <a href="https://www.npmjs.com/package/nord-hyper"><img src="https://img.shields.io/npm/v/nord-hyper.svg"/></a> <a href="https://www.npmjs.com/package/nord-hyper"><img src="https://img.shields.io/npm/dt/nord-hyper.svg"/></a> <a href="https://www.npmjs.com/package/nord-hyper"><img src="https://img.shields.io/npm/dm/nord-hyper.svg"/></a></p>
 
-<p align="center">A arctic, north-bluish clean and elegant <a href="https://hyper.is">Hyper</a> theme plugin.</p>
+<p align="center">An arctic, north-bluish clean and elegant <a href="https://hyper.is">Hyper</a> theme plugin.</p>
 
 <p align="center">Designed for a fluent and clear workflow.<br>
 Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.</p>
