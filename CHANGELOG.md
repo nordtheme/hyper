@@ -4,6 +4,11 @@
 
 ---
 
+# 0.4.0
+*2017-03-14*
+## Improvements
+❯ The `cursorColor` configuration is now respected to use the user defined color before the theme color. (@berkin, PR #8, bc73116f)
+
 # 0.3.0
 *2017-03-09*
 ## Features
