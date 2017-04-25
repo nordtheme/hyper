@@ -1,6 +1,6 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-hyper/develop/assets/nord-hyper-banner.svg"/></p>
 
-<p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/nord-hyper"><img src="https://img.shields.io/travis/arcticicestudio/nord-hyper/develop.svg"/></a> <img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/nord-hyper"><img src="https://circleci.com/gh/arcticicestudio/nord-hyper.svg?style=shield&circle-token=3d66b574b6e0663697a26c1207e6fa72c30e78c9"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-hyper/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-hyper.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg"/></a> <img src="https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png" width=24 height=24/> <a href="https://www.npmjs.com/package/nord-hyper"><img src="https://img.shields.io/npm/v/nord-hyper.svg"/></a> <a href="https://www.npmjs.com/package/nord-hyper"><img src="https://img.shields.io/npm/dt/nord-hyper.svg"/></a> <a href="https://www.npmjs.com/package/nord-hyper"><img src="https://img.shields.io/npm/dm/nord-hyper.svg"/></a></p>
+<p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/nord-hyper"><img src="https://img.shields.io/travis/arcticicestudio/nord-hyper/develop.svg?style=flat-square"/></a> <img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/nord-hyper"><img src="https://img.shields.io/circleci/project/github/arcticicestudio/nord-hyper/develop.svg?style=flat-square"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-hyper/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-hyper.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png" width=24 height=24/> <a href="https://www.npmjs.com/package/nord-hyper"><img src="https://img.shields.io/npm/v/nord-hyper.svg?style=flat-square"/></a> <a href="https://www.npmjs.com/package/nord-hyper"><img src="https://img.shields.io/npm/dt/nord-hyper.svg?style=flat-square"/></a> <a href="https://www.npmjs.com/package/nord-hyper"><img src="https://img.shields.io/npm/dm/nord-hyper.svg?style=flat-square"/></a></p>
 
 <p align="center">An arctic, north-bluish clean and elegant <a href="https://hyper.is">Hyper</a> theme plugin.</p>
 
@@ -37,7 +37,6 @@ hpm install nord-hyper
 ## Features
 <p align="center"><strong>Smooth transitions for tab interactions.</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-hyper/develop/assets/scrot-feature-tabs.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-hyper/develop/assets/scrcast-feature-smooth-tab-transition.gif"/></p>
 
-<p align="center"><strong>Non-obtrusive cursor blinking.</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-hyper/develop/assets/scrcast-feature-cursor-blink.gif"/></p>
 
 ## Configuration
 All configurations are set in the `nordHyper` object in your `~/.hyper.js` file.
@@ -58,7 +57,7 @@ module.exports = {
 ```
 
 ## Development
-[![](https://img.shields.io/badge/Changelog-0.4.0-81A1C1.svg)](https://github.com/arcticicestudio/nord-hyper/blob/v0.4.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg)](https://github.com/arcticicestudio/arcver)
+[![](https://img.shields.io/badge/Changelog-0.4.0-81A1C1.svg?style=flat-square)](https://github.com/arcticicestudio/nord-hyper/blob/v0.4.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg?style=flat-square)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg?style=flat-square)](https://github.com/arcticicestudio/arcver)
 
 Continuous integration builds are running at [Travis-CI](https://travis-ci.org/arcticicestudio/nord-hyper) and [Circle CI](https://circleci.com/gh/arcticicestudio/nord-hyper).
 
@@ -69,4 +68,4 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 
 <p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2017 Arctic Ice Studio</p>
 
-<p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-5E81AC.svg"/></a> <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-5E81AC.svg"/></a></p>
+<p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-5E81AC.svg?style=flat-square"/></a> <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-5E81AC.svg?style=flat-square"/></a></p>
