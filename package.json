@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/arcticicestudio/nord-hyper/issues"
   },
-  "license" : "(Apache-2.0 AND CC-BY-SA-4.0)",
+  "license": "(Apache-2.0 AND CC-BY-SA-4.0)",
   "main": "index.js",
   "keywords": [
     "arctic",
