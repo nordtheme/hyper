@@ -37,25 +37,6 @@ hpm install nord-hyper
 ## Features
 <p align="center"><strong>Smooth transitions for tab interactions.</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-hyper/develop/assets/scrot-feature-tabs.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-hyper/develop/assets/scrcast-feature-smooth-tab-transition.gif"/></p>
 
-
-## Configuration
-All configurations are set in the `nordHyper` object in your `~/.hyper.js` file.
-
-### Cursor Blinking
-The cursor blinking can be set with the `cursorBlink` attribute.  
-The default value is `true` to enable the non-obtrusive cursor blinking feature.
-```js
-module.exports = {
-  config: {
-    //...
-      nordHyper: {
-        cursorBlink: true,
-      }
-    //...
-  }
-}
-```
-
 ## Development
 [![](https://img.shields.io/badge/Changelog-0.4.0-81A1C1.svg?style=flat-square)](https://github.com/arcticicestudio/nord-hyper/blob/v0.4.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg?style=flat-square)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg?style=flat-square)](https://github.com/arcticicestudio/arcver)
 
