@@ -1,16 +1,13 @@
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# title      Circle CI Configuration                       +
-# project    nord-hyper                                    +
-# repository https://github.com/arcticicestudio/nord-hyper +
-# author     Arctic Ice Studio                             +
-# email      development@arcticicestudio.com               +
-# copyright  Copyright (c) 2017                            +
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#
-# [References]
-# Circle CI
-#   (https://circleci.com/docs/language-nodejs)
-#   (https://circleci.com/docs/yarn)
+# Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+
+# Project:    Nord Hyper
+# Repository: https://github.com/arcticicestudio/nord-hyper
+# License:    MIT
+# References:
+#   https://circleci.com/docs/language-nodejs
+#   https://circleci.com/docs/yarn
+
 machine:
   node:
     version: 6
