@@ -1,19 +1,15 @@
 /*
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Project Gulp File                              +
-project    nord-hyper                                     +
-repository https://github.com/arcticicestudio/nord-hyper  +
-author     Arctic Ice Studio                              +
-email      development@arcticicestudio.com                +
-copyright  Copyright (C) 2017                             +
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+ *
+ * Project:    Nord Hyper
+ * Repository: https://github.com/arcticicestudio/nord-hyper
+ * License:    MIT
+ * References:
+ *   http://gulpjs.com
+ *   https://www.npmjs.com
+ */
 
-[References]
-Gulp
-  (http://gulpjs.com)
-npmjs
-  (https://www.npmjs.com)
-*/
 /*+---------+
   + Imports +
   +---------+*/
