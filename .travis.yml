@@ -8,11 +8,18 @@
 #   https://docs.travis-ci.com/user/languages/javascript-with-nodejs
 
 language: node_js
+dist: trusty
+sudo: false
 node_js:
   - "6"
-  - "4"
-cache: yarn
+  - "8"
+os:
+  - linux
+  - osx
+before_install:
+  - rm -rf ./node_modules
 before_script:
-  - yarn global add gulp
-  - yarn install
+  - npm install -g gulp-cli
+  - npm install gulp
+  - npm install
 script: gulp --harmony lint
