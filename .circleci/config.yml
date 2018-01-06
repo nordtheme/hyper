@@ -1,0 +1,26 @@
+# Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+
+# Project:    Nord Hyper
+# Repository: https://github.com/arcticicestudio/nord-hyper
+# License:    MIT
+# References:
+#   https://circleci.com/docs/2.0
+#   https://circleci.com/docs/2.0/circleci-images/#nodejs
+
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.7
+    steps:
+      - checkout
+      - run:
+          name: install-global-gulp-cli
+          command: sudo npm install -g gulp-cli
+      - run:
+          name: npm-install
+          command: npm install
+      - run:
+          name: lint
+          command: gulp --harmony lint
