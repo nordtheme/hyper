@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+ * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2017-present Sven Greb <code@svengreb.de>
  *
  * Project:    Nord Hyper
  * Repository: https://github.com/arcticicestudio/nord-hyper

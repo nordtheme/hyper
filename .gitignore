@@ -10,3 +10,8 @@ pids
 *.pid
 *.seed
 *.pid.lock
+
+# +-------------------+
+# + Project Strcuture +
+# +-------------------+
+build/
