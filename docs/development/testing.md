@@ -5,7 +5,7 @@
 Nord Hyper uses [ESLint][eslint] to analyse the source code. To show the current lint status run
 
 ```sh
-gulp lint
+npm run lint
 ```
 
 [installation]: ../getting-started/installation.md
