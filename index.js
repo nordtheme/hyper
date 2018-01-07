@@ -1,13 +1,13 @@
 /*
- * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- * title      Nord Hyper                                    +
- * project    nord-hyper                                    +
- * repository https://github.com/arcticicestudio/nord-hyper +
- * author     Arctic Ice Studio                             +
- * email      development@arcticicestudio.com               +
- * copyright  Copyright (c) 2017                            +
- * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+ *
+ * Project:    Nord Hyper
+ * Version:    0.5.0
+ * Repository: https://github.com/arcticicestudio/nord-hyper
+ * License:    MIT
  */
+
 const nord = {
   nord0: "#2E3440",
   nord1: "#3B4252",
@@ -53,22 +53,7 @@ const colors = {
   grayscale: foregroundColor
 };
 
-let cursorBlinkCSS = `
-@keyframes blink {
-  10%, 50% { opacity: 0 }
-  60%, 100% { opacity: 1 }
-}
-.cursor-node[focus=true] {
-  mix-blend-mode: difference;
-}
-.cursor-node[focus=true]:not([hyper-blink-moving]) {
-  box-sizing: content-box !important;
-  animation: blink 1s ease infinite;
-}
-`;
-
 exports.decorateConfig = config => {
-  const nordHyper = Object.assign({cursorBlink: true}, config.nordHyper);
 
   return Object.assign({}, config, {
     foregroundColor,
@@ -87,7 +72,6 @@ exports.decorateConfig = config => {
       .cursor-node {
         border-left-width: 2px;
       }
-      ${nordHyper.cursorBlink ? cursorBlinkCSS : ""}
     `,
     css: `
       ${config.css || ""}

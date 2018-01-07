@@ -1,20 +1,17 @@
 /*
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      ESLint Configuration                           +
-project    nord-hyper                                     +
-repository https://github.com/arcticicestudio/nord-hyper  +
-author     Arctic Ice Studio                              +
-email      development@arcticicestudio.com                +
-copyright  Copyright (C) 2017                             +
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+ *
+ * Project:    Nord Hyper
+ * Repository: https://github.com/arcticicestudio/nord-hyper
+ * License:    MIT
+ * References:
+ *   http://eslint.org/docs/user-guide/configuring
+ *   http://eslint.org/docs/user-guide/configuring#using-configuration-files
+ *   http://eslint.org/docs/user-guide/configuring#specifying-environments
+ *   http://eslint.org/docs/rules
+ */
 
-[References]
-ESLint
-  (http://eslint.org/docs/user-guide/configuring)
-  (http://eslint.org/docs/user-guide/configuring#using-configuration-files)
-  (http://eslint.org/docs/user-guide/configuring#specifying-environments)
-  (http://eslint.org/docs/rules)
-*/
 module.exports = {
   "env": {
     "node": true,
