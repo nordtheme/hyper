@@ -30,6 +30,7 @@
     - [Versioning](development/contributing.md#versioning)
     - [Credits](development/contributing.md#credits)
   - [Changelog](development/changelog.md)
+    - [0.5.0](development/changelog.md#050)
     - [0.4.0](development/changelog.md#040)
     - [0.3.0](development/changelog.md#030)
     - [0.2.0](development/changelog.md#020)
