@@ -3,6 +3,7 @@
  * Copyright (c) 2017-present Sven Greb <code@svengreb.de>
  *
  * Project:    Nord Hyper
+ * Version:    0.5.0
  * Repository: https://github.com/arcticicestudio/nord-hyper
  * License:    MIT
  */

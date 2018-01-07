@@ -4,6 +4,46 @@
 
 ---
 
+# 0.5.0
+
+![Release Date: 2018-01-07](https://img.shields.io/badge/Release_Date-2018--01--07-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-hyper/projects/7) [![Milestone](https://img.shields.io/badge/Milestone-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-hyper/milestone/6)
+
+> Detailed information about features and the project can be found in the [project documentation][gh-docs].
+
+## Improvements
+
+### Documentation
+
+❯ The new [project documentation][gh-docs] contains chapters to learn about the [installation][gh-docs-getting-started-installation] and development [requirements][gh-docs-getting-started-requirements], [learn how to build][gh-docs-dev-building] the project and [run the tests][gh-docs-dev-testing]. (#25 in PR #26, 4b0771b7)
+
+❯ Next to the project documentation the new [GitHub Open Source community standards][github-blog-cm-tools] have been added to complete the project's [community profile][gh-cm-profile] and adapt to the [Open Source Guides][github-opensource-guide] consisting of the [Contributing Guidelines][github-help-coc] and the [Code of Conduct][github-blog-contrib-guidelines]. (#18 in PR #24, 775161e1)
+
+❯ Added GitHub's new [code owners][github-blog-code-owners] feature to improve the code review process. (#16 in PR #22, a6217905)
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/34651429-7f4ace32-f3d0-11e7-8809-4b8cb9d69b18.png"/></p>
+
+❯ Added GitHub's new [issue and pull request templates][github-blog-issue-pr-templates] to provide support for contributors to [create issues][issue-template] and [submitting pull requests][pr-template]. (#17 in PR #23, 251450ec)
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/34651473-e23290f2-f3d0-11e7-93bd-8244795e4117.png"/></p>
+
+## Bug Fixes
+
+❯ Removed the cursor blink (´cursorBlink) theme configuration implemented in #7 which caused the display to break when Hyper gets fully reloaded. Users can switch to the [builtin configuration feature][hyper-docs-config] provided by Hyper introduced in version [1.3.0][hyper-gh-release-1.3.0]. (#10 in PR #12, @Erazihel, fc161d13)
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/31133016-954868ce-a85e-11e7-8b04-a6427a335be8.png"/></p>
+
+## Tasks
+
+### Documentation
+
+❯ Adapted the migration to the [MIT license][gh-license.md] based on the main task arcticicestudio/nord#/55. (#13 in PR #14, a7a0468d)
+
+### Build Tools
+
+❯ Updated the build configuration for [Circle CI][ci-circleci] to the new [API version 2.0][circle-ci-docs-api-2.0]. Both Circle CI and [Travis CI][ci-travisci] are changed to use [npm][npm] instead of [yarn][yarn]. (#20 in PR #21, 50a1c8ec)
+
+❯ Replaced [gulp.js][gulp.js] with npm scripts. *gulp.js* is meant to be used as streaming build tool for larger projects with many tasks to combine them to a simple workflow while Nord Hyper is a small project with only one build / development task where *gulp.js* is more overhead / too heavy weight. (#27 in PR #28, f822e3d6)
+
 # 0.4.0
 
 ![Release Date: 2017-03-14](https://img.shields.io/badge/Release_Date-2017--03--14-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-hyper/projects/6) [![Milestone](https://img.shields.io/badge/Milestone-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-hyper/milestone/5)
@@ -96,10 +136,34 @@ Detailed information about features and install instructions can be found in the
 
 [ci-circleci]: https://circleci.com/gh/arcticicestudio/nord-hyper
 [ci-travisci]: https://travis-ci.org/arcticicestudio/nord-hyper
+[circle-ci-docs-api-2.0]: https://circleci.com/docs/2.0
+[gh-cm-profile]: https://github.com/arcticicestudio/nord-hyper/community
+[gh-docs]: https://arcticicestudio.github.io/nord-hyper
+[gh-docs-dev-building]: https://arcticicestudio.github.io/nord-hyper/development/building.html
+[gh-docs-dev-testing]: https://arcticicestudio.github.io/nord-hyper/development/testing.html
+[gh-docs-get-started]: https://arcticicestudio.github.io/nord-hyper/getting-started
+[gh-docs-getting-started-installation]: https://arcticicestudio.github.io/nord-hyper/getting-started/installation.html
+[gh-docs-getting-started-requirements]: https://arcticicestudio.github.io/nord-hyper/getting-started/requirements.html
 [gh-readme-config-cursor-blinking]: https://github.com/arcticicestudio/nord-hyper#cursor-blinking
 [gh-readme-features]: https://github.com/arcticicestudio/nord-hyper/blob/develop/README.md#features
 [gh-readme-installation]: https://github.com/arcticicestudio/nord-hyper/blob/develop/README.md#installation
 [gh-index.js]: https://github.com/arcticicestudio/nord-hyper/blob/develop/index.js
+[gh-license.md]: https://github.com/arcticicestudio/nord-hyper/blob/develop/LICENSE.md
+[gh-styleguide-git]: https://github.com/arcticicestudio/styleguide-git
+[gh-styleguide-js]: https://github.com/arcticicestudio/styleguide-javascript
 [gh-wiki]: https://github.com/arcticicestudio/nord-hyper/wiki
+[github-blog-code-owners]: https://github.com/blog/2392-introducing-code-owners
+[github-blog-cm-tools]: https://github.com/blog/2380-new-community-tools
+[github-blog-contrib-guidelines]: https://github.com/blog/1184-contributing-guidelines
+[github-blog-issue-pr-templates]: https://github.com/blog/2111-issue-and-pull-request-templates
+[github-help-coc]: https://help.github.com/articles/adding-a-code-of-conduct-to-your-project
+[gulp.js]: https://gulpjs.com
+[hyper-docs-config]: https://hyper.is/#cfg
+[github-opensource-guide]: https://opensource.guide
+[github-opensource-guide-coc]: https://opensource.guide/code-of-conduct
+[github-opensource-guide-contrib]: https://opensource.guide/how-to-contribute
+[hyper-gh-release-1.3.0]: https://github.com/zeit/hyper/releases/tag/1.3.0
 [nodejs]: https://nodejs.org
+[npm]: https://www.npmjs.com
 [npm-hyper-statusline]: https://www.npmjs.com/package/hyper-statusline
+[yarn]: https://yarnpkg.com
