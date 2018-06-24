@@ -66,10 +66,10 @@ exports.decorateConfig = config => {
     fontFamily: config.fontFamily || "'Source Code Pro', Hack",
     termCSS: `
       ${config.termCSS || ""}
-      ::selection {
+      .terminal .xterm-selection div {
         background: rgba(67, 76, 94, 0.8) !important;
       }
-      .cursor-node {
+      .terminal-cursor {
         border-left-width: 2px;
       }
     `,
@@ -84,7 +84,7 @@ exports.decorateConfig = config => {
         right: 0 !important;
         left: 0 !important;
       }
-      ::selection {
+      .terminal .xterm-selection div {
         background: rgba(67, 76, 94, 0.8) !important;
       }
       .tab_first {
