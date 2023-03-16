@@ -1,13 +1,10 @@
-# Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
 
-# Project:    Nord Hyper
-# Repository: https://github.com/arcticicestudio/nord-hyper
-# License:    MIT
+# CircleCI configuration.
 # References:
-#   https://circleci.com/docs/2.0
-#   https://circleci.com/docs/2.0/circleci-images/#nodejs
-
+#   1. https://circleci.com/docs/2.0
+#   2. https://circleci.com/docs/2.0/circleci-images/#nodejs
 version: 2
 jobs:
   build:
