@@ -1,11 +1,9 @@
-# Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
 
-# Project:    Nord Hyper
-# Repository: https://github.com/arcticicestudio/nord-hyper
-# License:    MIT
+# Travis CI configuration.
 # References:
-#   https://docs.travis-ci.com/user/languages/javascript-with-nodejs
+#   1. https://docs.travis-ci.com/user/languages/javascript-with-nodejs
 
 language: node_js
 dist: trusty

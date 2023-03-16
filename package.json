@@ -1,22 +1,26 @@
 {
-  "name": "nord-hyper",
-  "title": "Nord Hyper",
+  "name": "@nordtheme/hyper",
   "version": "0.5.0",
   "description": "An arctic, north-bluish clean and elegant Hyper theme plugin",
   "author": {
-    "name": "Arctic Ice Studio",
-    "email": "development@arcticicestudio.com",
-    "url": "http://arcticicestudio.com"
+    "name": "Sven Greb",
+    "email": "development@svengreb.de",
+    "url": "https://www.svengreb.de"
   },
-  "homepage": "https://github.com/arcticicestudio/nord-hyper",
+  "homepage": "https://www.nordtheme.com/ports/hyper",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arcticicestudio/nord-hyper.git"
+    "url": "git+https://github.com/nordtheme/hyper.git"
   },
   "bugs": {
-    "url": "https://github.com/arcticicestudio/nord-hyper/issues"
+    "url": "https://github.com/nordtheme/hyper/issues"
   },
-  "license": "(MIT AND CC-BY-SA-4.0)",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=15.13",
+    "npm": ">=7.7"
+  },
   "main": "index.js",
   "keywords": [
     "arctic",
@@ -29,14 +33,29 @@
     "hyper-theme"
   ],
   "scripts": {
-    "docs:build": "npm run docs:clean && gitbook install ./docs && gitbook build ./docs ./build/docs",
-    "docs:clean": "node_modules/.bin/del ./build/docs",
-    "docs:dev": "npm run docs:build && gitbook serve ./docs ./build/docs",
-    "lint": "eslint --color index.js"
+    "format": "run-s format:js format:pretty",
+    "format:js": "eslint --fix",
+    "format:pretty": "prettier --write .",
+    "lint": "run-s lint:md lint:pretty",
+    "lint:ci": "run-s lint:ci:* lint:js lint:md",
+    "lint:ci:pretty": "prettier --loglevel silent --check .",
+    "lint:js": "eslint .",
+    "lint:md": "remark --no-stdout . \".github/**/*.md\"",
+    "lint:pretty": "prettier --check .",
+    "prepare:husky": "husky install",
+    "prepare": "run-s prepare:*"
   },
   "devDependencies": {
-    "del-cli": "1.1.0",
-    "eslint": "4.15.0",
-    "gitbook-cli": "2.3.2"
+    "@arcticicestudio/eslint-config-base": ">=0.11.0 <=1.0.0",
+    "@arcticicestudio/remark-preset-lint": ">=0.4.0 <1.0.0",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.7.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-prettier": "3.4.1",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.8.4",
+    "remark-cli": "11.0.0"
   }
 }

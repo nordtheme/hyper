@@ -1,11 +1,6 @@
 /*
- * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2017-present Sven Greb <code@svengreb.de>
- *
- * Project:    Nord Hyper
- * Version:    0.5.0
- * Repository: https://github.com/arcticicestudio/nord-hyper
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
 const nord = {
@@ -24,7 +19,7 @@ const nord = {
   nord12: "#D08770",
   nord13: "#EBCB8B",
   nord14: "#A3BE8C",
-  nord15: "#B48EAD"
+  nord15: "#B48EAD",
 };
 
 const backgroundColor = nord.nord0;
@@ -50,11 +45,10 @@ const colors = {
   lightCyan: nord.nord7,
   lightWhite: nord.nord6,
   colorCubes: nord.nord6,
-  grayscale: foregroundColor
+  grayscale: foregroundColor,
 };
 
-exports.decorateConfig = config => {
-
+exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     foregroundColor,
     backgroundColor,
@@ -124,6 +118,6 @@ exports.decorateConfig = config => {
       .footer_footer .item_icon.icon_push {
         background-color: ${nord.nord7};
       }
-    `
+    `,
   });
 };
