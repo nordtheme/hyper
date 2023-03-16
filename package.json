@@ -1,22 +1,26 @@
 {
-  "name": "nord-hyper",
-  "title": "Nord Hyper",
+  "name": "@nordtheme/hyper",
   "version": "0.5.0",
   "description": "An arctic, north-bluish clean and elegant Hyper theme plugin",
   "author": {
-    "name": "Arctic Ice Studio",
-    "email": "development@arcticicestudio.com",
-    "url": "http://arcticicestudio.com"
+    "name": "Sven Greb",
+    "email": "development@svengreb.de",
+    "url": "https://www.svengreb.de"
   },
-  "homepage": "https://github.com/arcticicestudio/nord-hyper",
+  "homepage": "https://www.nordtheme.com/ports/hyper",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arcticicestudio/nord-hyper.git"
+    "url": "git+https://github.com/nordtheme/hyper.git"
   },
   "bugs": {
-    "url": "https://github.com/arcticicestudio/nord-hyper/issues"
+    "url": "https://github.com/nordtheme/hyper/issues"
   },
-  "license": "(MIT AND CC-BY-SA-4.0)",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=15.13",
+    "npm": ">=7.7"
+  },
   "main": "index.js",
   "keywords": [
     "arctic",
@@ -29,14 +33,30 @@
     "hyper-theme"
   ],
   "scripts": {
-    "docs:build": "npm run docs:clean && gitbook install ./docs && gitbook build ./docs ./build/docs",
-    "docs:clean": "node_modules/.bin/del ./build/docs",
-    "docs:dev": "npm run docs:build && gitbook serve ./docs ./build/docs",
-    "lint": "eslint --color index.js"
+    "format": "run-s format:*",
+    "format:js": "eslint --fix .",
+    "format:pretty": "prettier --ignore-unknown --no-editorconfig --write \"**\"",
+    "lint": "run-s lint:js lint:md lint:pretty",
+    "lint:ci": "run-s --continue-on-error lint:js lint:md lint:ci:pretty",
+    "lint:ci:pretty": "prettier --check --ignore-unknown --loglevel silent --no-editorconfig --no-error-on-unmatched-pattern \"**\"",
+    "lint:js": "eslint .",
+    "lint:md": "remark --no-stdout . .github/",
+    "lint:pretty": "prettier --check --ignore-unknown --no-editorconfig \"**\"",
+    "prepare:husky": "husky install",
+    "prepare": "run-s prepare:*"
   },
   "devDependencies": {
-    "del-cli": "1.1.0",
-    "eslint": "4.15.0",
-    "gitbook-cli": "2.3.2"
+    "@arcticicestudio/eslint-config-base": ">=0.11.0 <=1.0.0",
+    "@arcticicestudio/remark-preset-lint": ">=0.4.0 <1.0.0",
+    "eslint": "8.38.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.1",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.8.7",
+    "prettier-plugin-sh": "0.12.8",
+    "remark-cli": "11.0.0"
   }
 }

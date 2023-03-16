@@ -1,11 +1,6 @@
 /*
- * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2017-present Sven Greb <code@svengreb.de>
- *
- * Project:    Nord Hyper
- * Version:    0.5.0
- * Repository: https://github.com/arcticicestudio/nord-hyper
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
 const nord = {
@@ -24,7 +19,7 @@ const nord = {
   nord12: "#D08770",
   nord13: "#EBCB8B",
   nord14: "#A3BE8C",
-  nord15: "#B48EAD"
+  nord15: "#B48EAD",
 };
 
 const backgroundColor = nord.nord0;
@@ -50,21 +45,20 @@ const colors = {
   lightCyan: nord.nord7,
   lightWhite: nord.nord6,
   colorCubes: nord.nord6,
-  grayscale: foregroundColor
+  grayscale: foregroundColor,
 };
 
-exports.decorateConfig = config => {
-
-  return Object.assign({}, config, {
-    foregroundColor,
-    backgroundColor,
-    borderColor,
-    cursorColor: config.cursorColor || cursorColor,
-    colors,
-    cursorShape: config.cursorShape || "BEAM",
-    fontSize: config.fontSize || 16,
-    fontFamily: config.fontFamily || "'Source Code Pro', Hack",
-    termCSS: `
+exports.decorateConfig = (config) => ({
+  ...config,
+  foregroundColor,
+  backgroundColor,
+  borderColor,
+  cursorColor: config.cursorColor || cursorColor,
+  colors,
+  cursorShape: config.cursorShape || "BEAM",
+  fontSize: config.fontSize || 16,
+  fontFamily: config.fontFamily || "'Source Code Pro', Hack",
+  termCSS: `
       ${config.termCSS || ""}
       .terminal .xterm-selection div {
         background: rgba(67, 76, 94, 0.8) !important;
@@ -73,7 +67,7 @@ exports.decorateConfig = config => {
         border-left-width: 2px;
       }
     `,
-    css: `
+  css: `
       ${config.css || ""}
       * {
         text-rendering: optimizeLegibility !important;
@@ -124,6 +118,5 @@ exports.decorateConfig = config => {
       .footer_footer .item_icon.icon_push {
         background-color: ${nord.nord7};
       }
-    `
-  });
-};
+    `,
+});
