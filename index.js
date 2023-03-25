@@ -25,6 +25,8 @@ const nord = {
 const backgroundColor = nord.nord0;
 const foregroundColor = nord.nord4;
 const cursorColor = nord.nord4;
+const selectionColor = cursorColor;
+const cursorAccentColor = backgroundColor;
 const borderColor = backgroundColor;
 
 const colors = {
@@ -54,6 +56,8 @@ exports.decorateConfig = (config) => {
     backgroundColor,
     borderColor,
     cursorColor: config.cursorColor || cursorColor,
+    selectionColor: config.selectionColor || selectionColor,
+    cursorAccentColor: config.cursorAccentColor || cursorAccentColor,
     colors,
     cursorShape: config.cursorShape || "BEAM",
     fontSize: config.fontSize || 16,
