@@ -35,7 +35,7 @@
 
 # 0.5.0
 
-![Release Date: 2018-01-07](https://img.shields.io/badge/Release_Date-2018--01--07-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/projects/7) [![Milestone](https://img.shields.io/badge/Milestone-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/milestone/6)
+![Release Date: 2018-01-07](https://img.shields.io/badge/Release_Date-2018--01--07-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/milestone/6)
 
 > Detailed information about features and the project can be found in the project documentation.
 
@@ -87,7 +87,7 @@
 
 # 0.4.0
 
-![Release Date: 2017-03-14](https://img.shields.io/badge/Release_Date-2017--03--14-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/projects/6) [![Milestone](https://img.shields.io/badge/Milestone-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/milestone/5)
+![Release Date: 2017-03-14](https://img.shields.io/badge/Release_Date-2017--03--14-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/milestone/5)
 
 ## Improvements
 
@@ -95,7 +95,7 @@
 
 # 0.3.0
 
-![Release Date: 2017-03-09](https://img.shields.io/badge/Release_Date-2017--03--09-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/projects/5) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/milestone/4)
+![Release Date: 2017-03-09](https://img.shields.io/badge/Release_Date-2017--03--09-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/milestone/4)
 
 ## Features
 
@@ -123,7 +123,7 @@ module.exports = {
 
 # 0.2.0
 
-![Release Date: 2017-03-08](https://img.shields.io/badge/Release_Date-2017--03--08-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/projects/4) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/milestone/3)
+![Release Date: 2017-03-08](https://img.shields.io/badge/Release_Date-2017--03--08-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/milestone/3)
 
 ## Features
 
@@ -153,7 +153,7 @@ module.exports = {
 
 # 0.1.1
 
-![Release Date: 2017-02-21](https://img.shields.io/badge/Release_Date-2017--02--21-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.1-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/projects/3) [![Milestone](https://img.shields.io/badge/Milestone-0.1.1-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/milestone/2)
+![Release Date: 2017-02-21](https://img.shields.io/badge/Release_Date-2017--02--21-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.1-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.1.1-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/milestone/2)
 
 ## Improvements
 
@@ -173,7 +173,7 @@ module.exports = {
 
 # 0.1.0
 
-![Release Date: 2017-02-19](https://img.shields.io/badge/Release_Date-2017--02--19-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/projects/2) [![Milestone](https://img.shields.io/badge/Milestone-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/milestone/1)
+![Release Date: 2017-02-19](https://img.shields.io/badge/Release_Date-2017--02--19-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/hyper/milestone/1)
 
 <img src="https://www.npmjs.com/static/images/touch-icons/apple-touch-icon-60x60.png" width="16" height="16" /> **Initial npm module release version!**
 

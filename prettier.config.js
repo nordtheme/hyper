@@ -10,10 +10,17 @@
  * @see https://prettier.io/docs/en/options.html#parser
  * @see https://prettier.io/docs/en/plugins.html
  * @see https://github.com/un-ts/prettier/tree/master/packages/sh
+ * @see https://github.com/prettier/plugin-xml
  */
 module.exports = {
   printWidth: 160,
   overrides: [
+    {
+      files: ["*.svg"],
+      options: {
+        parser: "xml",
+      },
+    },
     {
       files: [".husky/*"],
       options: {
